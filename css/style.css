@@ -1,0 +1,84 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212529;
+}
+
+.container {
+  width: 1440px;
+  height: 706px;
+  background-color: #fafafa;
+  padding: 35px 85px;
+}
+
+.main {
+  display: table;
+}
+.main-container {
+  width: 1240px;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  display: table;
+  text-align: center;
+}
+
+.main-span {
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #a6a6a6;
+  margin-bottom: 4px;
+}
+.main-title {
+  font-size: 61px;
+  line-height: 73.2px;
+}
+.main-image-container {
+}
+.main-list {
+  display: flex;
+  gap: 30px;
+}
+.main-item {
+}
+.main-image {
+  margin-bottom: 40.16px;
+}
+.main-image-title {
+  width: 251px;
+  height: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.main-description {
+  width: 369px;
+  height: 72px;
+}
